@@ -1,2 +1,2 @@
-# HTML-Pesquisa-de-Opini-o
+# HTML-Pesquisa-de-Opinião
 Projeto simples em HTML e CSS
