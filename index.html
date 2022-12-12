@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <title></title>
+</head>
+
+<body>
+  <h1 id='title'>Pesquisa de Opinião</h1>
+  <p id=description> Obrigado por nos ajudar a melhorar a plataforma</p>
+  <form id="survey-form" method="post">
+    <div class="form">
+      <label for="name" id="name-label">Nome</label> <br>
+      <input required type="text" id="name" placeholder="Seu nome" class="complete" />
+    </div>
+    <div class="form">
+      <label for="email" id="email-label">Email</label> <br>
+      <input required type="email" id="email" placeholder="local@dominio" class="complete" />
+    </div>
+    <div class="form">
+      <label for="number" id="number-label">Idade(Opcional)</label> <br>
+      <input type="number" id="number" min=8 max=120 placeholder="Idade" class="complete" />
+    </div>
+    <div class="form">
+      <label for="">O que você achou do nosso site?</label> <br>
+      <select id="dropdown" class="complete" required>
+        <option value="">-Escolha uma Opção-</option>
+        <option value="mbom">Muito Bom</option>
+        <option value="bom">Bom</option>
+        <option value="ok">OK</option>
+        <option value="ruim">Ruim</option>
+        <option value="pessimo">Péssimo</option>
+      </select>
+    </div>
+    <div class="form">
+      <label for="">Recomendaria o site para algum amigo?</label> <br>
+      <input type="radio" name="sn" value="sim" required><label for="sn"> Sim</label> <br>
+      <input type="radio" name="sn" value="talvez"><label for="sn"> Talvez</label> <br>
+      <input type="radio" name="sn" value="nao"><label for="sn"> Não</label> <br>
+    </div>
+    <div class="form">
+      <label>O que você gostaria que mudasse?</label> <br>
+      <label for="layout"><input type="checkbox" class="inline" id="layout" value="layout"> Layout</label> <br>
+      <label for="design"><input type="checkbox" class="inline" id="design" value="design"> Design</label> <br>
+      <label for="nada"><input type="checkbox" class="inline" id="nada" value="nada"> Nada, está perfeito</label> <br>
+    </div>
+    <div class="form">
+      <label for="tarea">Alguma sugestão?</label> <br>
+      <textarea name="tarea" rows="80" placeholder="Eu acho que..."></textarea>
+    </div>
+    <div class="form">
+      <button type="submit" name="button" id="submit">Enviar</button>
+    </div>
+  </form>
+</body>
+
+</html>

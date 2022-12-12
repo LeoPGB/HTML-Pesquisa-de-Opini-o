@@ -1,0 +1,60 @@
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+body {
+  background-color: #212121;
+  color: #ffffff;
+}
+form {
+  margin: 0 auto;
+  width: 65%;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+div {
+  padding: 0.5em 0;
+}
+
+label {
+  font-size: 1.5em;
+}
+
+input {
+  padding: 0;
+}
+
+.complete, textarea {
+  width: 100%;
+  border: 1px solid #ced4da;
+  border-radius: 2px;
+  background-color: #424242;
+  padding: 0;
+  color: #ffffff;
+}
+
+.complete {
+  height: 2rem;
+}
+
+textarea {
+  height: 5rem;
+}
+
+button {
+  background-color: #3cb371;
+  border-radius: 2px;
+  width: 100%;
+  padding: 1em;
+}
+
+input[type=checkbox], input[type=radio] {
+  transform: scale(1.5);
+}
